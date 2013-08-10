@@ -11,7 +11,7 @@ class BioactivityTestCase(unittest.TestCase):
         self.bioactivity = bioactivity.Bioactivity()
 
     def testBioactivity(self):
-        pass
+        self.assertTrue(self.bioactivity is not None)
 
     def tearDown(self):
         pass
